@@ -33,3 +33,12 @@ p {
 .modal {
   color: #264653;
 }
+.bikes {
+  width: 288px;
+  height: 243px;
+  background: white;
+}
+.bike-1,
+.bike-3 {
+  filter: grayscale(1);
+}
