@@ -72,3 +72,27 @@ p {
 .asked-questions {
   margin-top: 100px;
 }
+.accordion-header button {
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+}
+
+/* specifications section */
+.specifications h5,
+h4,
+p {
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+}
+.specifications h1,
+h3,
+h5 {
+  color: #db5a3a;
+}
+
+/* footer part style */
+footer {
+  margin-top: 100px;
+  color: aliceblue;
+  background-color: #0b0d17;
+}
