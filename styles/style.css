@@ -8,6 +8,22 @@ h2 {
 }
 
 /* header style */
+
+#navbar-position {
+  display: flex;
+  width: 35%;
+}
+#navBar li a {
+  color: white;
+}
+#login-btn {
+  color: white;
+  background-color: #e76f51;
+  border-radius: 5px;
+  border: none;
+  padding: 3px 15px;
+}
+
 header {
   color: white;
 }
@@ -45,7 +61,7 @@ p {
   filter: grayscale(1);
 }
 
-/* latest new section */
+/* latest news section */
 #read-button {
   border: 1px solid #e76f51;
   color: #e76f51;
@@ -68,6 +84,11 @@ p {
 }
 .fa-star {
   color: #e77c40;
+}
+
+/* freequently asked questions section  */
+#accordion-heading {
+  color: #0b0d17;
 }
 .asked-questions {
   margin-top: 100px;
@@ -93,6 +114,9 @@ h5 {
 /* footer part style */
 footer {
   margin-top: 100px;
-  color: aliceblue;
   background-color: #0b0d17;
+}
+footer img {
+  border-radius: 5px;
+  border: 1px solid silver;
 }
