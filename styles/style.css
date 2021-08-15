@@ -2,7 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
-body h1 {
+body h1,
+h2 {
   font-family: "Poppins", sans-serif;
 }
 
@@ -21,9 +22,10 @@ p {
 #purchase-button {
   background-color: #e76f51;
   color: white;
+  font-weight: 600;
 }
 
-/* main section styles */
+/* header styles */
 .underline {
   width: 58px;
   border: 1px solid #e76f51;
@@ -41,4 +43,32 @@ p {
 .bike-1,
 .bike-3 {
   filter: grayscale(1);
+}
+
+/* latest new section */
+#read-button {
+  border: 1px solid #e76f51;
+  color: #e76f51;
+  font-weight: 600;
+}
+#read-button:hover {
+  background-color: #e76f51;
+  color: aliceblue;
+}
+
+/* clients says section */
+.clients-says {
+  margin-top: 140px;
+}
+.clients {
+  color: #e76f51;
+}
+.clients-name {
+  color: #23a6f0;
+}
+.fa-star {
+  color: #e77c40;
+}
+.asked-questions {
+  margin-top: 100px;
 }
